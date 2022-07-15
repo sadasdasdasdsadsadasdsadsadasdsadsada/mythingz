@@ -1,0 +1,80 @@
+* {
+    margin:0px;
+    padding: 0px;
+}
+a {
+    color: aqua;
+    border-style: solid;
+    border-width: 3px;
+    padding: 10px;
+    border-radius: 10px;
+}
+body {
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)) ,url(../image/download.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    color: white;
+    min-height: 100vh;
+}
+header {
+    padding: 20px;
+    position: fixed;
+    background-color: rgba(0,0,0,0.5);
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    backdrop-filter: blur(10px);
+    color: blue;
+}
+header img {
+    width: 150px;
+    border-radius: 100px;
+}
+header ul {
+    float: right;
+    list-style: none;
+    font-size: 25px;
+
+}
+header li {
+    display: inline-block;
+    margin-top: 40px;
+    margin-right: 50px;
+    margin-left: 50px;
+}
+header a:hover {
+    background-color: blue;
+    transition: 1s;
+}
+main {
+    padding-top: 200px;
+}
+button {
+    padding: 10.5px;
+}
+.middleCenter {
+    padding-left:200px;
+    text-decoration: none;
+    margin: 10px;
+}
+footer {
+    position: fixed;
+    bottom: 0px;
+    background-color: rgba(0,0,0,0.6);
+    left: 0px;
+    right: 0px;
+}
+.gridSection {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 50px;
+}
+.gridColumn {
+    background-color: midnightblue;
+    margin: 10px;
+    border-radius: 10px;
+    text-align: center;
+}
