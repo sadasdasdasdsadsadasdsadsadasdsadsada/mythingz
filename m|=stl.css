@@ -1,0 +1,88 @@
+body {
+    background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOEAAADhCAMAAAAJbSJIAAAAA1BMVEUAAP+KeNJXAAAASElEQVR4nO3BgQAAAADDoPlTX+AIVQEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADwDcaiAAFXD1ujAAAAAElFTkSuQmCC);
+    background-size: cover;
+    /*bad background-image:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOEAAADhCAMAAAAJbSJIAAAAA1BMVEUAAP+KeNJXAAAASElEQVR4nO3BgQAAAADDoPlTX+AIVQEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADwDcaiAAFXD1ujAAAAAElFTkSuQmCC);
+background-size: cover;*/
+}
+.listTitle
+{
+    font-size: 29px;
+    font-weight: 700;
+    font-family: fantasy;
+    color: rgb(58, 6, 6);
+}
+img {
+    display: block;
+    border: rgb(43, 155, 246) solid 10px;
+    border-radius: 1000px;
+    margin-top: 10px;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    background-color: rgb(139, 47, 245);
+    width: 300px;
+}
+.give-me-money-button {
+    background-color: rgb(18, 25, 244);
+    color: rgb(70, 244, 148);
+    font-size: x-large;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 25px 25px;
+    border-radius: 100px;
+    transition: background-color 1s;
+}
+.give-me-money-button:hover {
+    background-color: rgb(83, 226, 43);
+    cursor: pointer;
+    box-shadow: 10px 10px 10px rgba(0,0,0,0.6);
+}
+.do-not-give-me-money-button{
+    background-color: rgb(18, 25, 244);
+    color: rgb(251, 32, 32);
+    font-size: x-large;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 25px 25px;
+    border-radius: 100px;
+    transition: background-color 1s;    
+}
+.do-not-give-me-money-button:hover {
+    background-color: crimson;
+    cursor: pointer;
+    box-shadow: 10px 10px 10px rgba(0,0,0,0.6);
+}
+table {
+    border: solid 1px black;
+    padding: 10px;
+}
+td {
+    padding: 10px;
+    border: solid 1px black;
+}
+.highondrugs {
+    font-weight: bold;
+}
+.sixfeetunder {
+    text-decoration: underline;
+    font-style: italic;
+    font-weight: bold;
+}
+.header ul {
+    float: right;
+    list-style: none;
+}
+header li {
+    display: inline-block;
+    margin: 10px;
+    font-size: 30px;
+    border: rgb(200,200,500) solid 2px;
+    padding: 10px;
+    border-radius: 10px;
+}
+header a {
+    color: aqua;
+    background-color: rgb(86, 252, 169);
+}
+#active {
+    background-color: blue;
+    color: rgb(0,0,200);
+    font-weight: bold;
+}
